@@ -1,0 +1,15 @@
+{
+    "manifest_version" : 3,
+    "name" : "youtube extension",
+    "version" : "0.1",
+    "content_scripts" : [
+        {
+            "matches" : [
+                "https://music.youtube.com/*"
+            ],
+            "js" :[
+                "content_script.js"
+            ]
+        }
+    ]
+}
